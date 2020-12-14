@@ -1,6 +1,8 @@
 # Sign Language
 CS50 Final Project - Sign Language 2020
 
+![Image of Signs](https://image.freepik.com/free-vector/hand-drawn-sign-language-alphabet_23-2147869790.jpg)
+
 The project is a webpage where the people can learn and practice sign language. The implementation is fairly simple, to keep the project scope in check.
 
 Technologies and Frameworks used:
@@ -48,12 +50,19 @@ Database stores all users (user, password, score) and signs (video, letter, type
 ## How to launch application
 
 1. Check that you have all dependencies
-  `pip install cs50`
-  `pip install Flask`
-  `pip install Flask-Session`
-  `pip install requests`
+  >
+  ```
+  $ pip install cs50
+  $ pip install Flask
+  $ pip install Flask-Session
+  $ pip install requests
+  ```
+  ---
 2. Clone the code: `git clone https://github.com/vanessarodriguezsilva/cs50-final-project.git`
 3. Execute `cd cs50-final-project` to change into (i.e., open) that directory.
 4. Once installed run command `python application.py`
 5. In your browser go to `127.0.0.1:5000`
-6. You are ready to go!
+6. You are ready to go! :+1:
+
+# Credits
+All text info about the signs was taken from [this blog](https://blog.ai-media.tv/blog/7-reasons-sign-language-is-awesome), the images used was taken from [logo reference](https://cdn.iconscout.com/icon/free/png-512/sign-language-1427641-1207032.png), [signs](https://image.freepik.com/free-vector/hand-drawn-sign-language-alphabet_23-2147869790.jpg) and [videos](https://www.youtube.com/channel/UCVcQH8A634mauPrGbWs7QlQ)
