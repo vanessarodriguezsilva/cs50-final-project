@@ -48,6 +48,10 @@ Database stores all users (user, password, score) and signs (video, letter, type
 ## How to launch application
 
 1. Check that you have all dependencies
+  `pip install cs50`
+  `pip install Flask`
+  `pip install Flask-Session`
+  `pip install requests`
 2. Clone the code: `git clone https://github.com/vanessarodriguezsilva/cs50-final-project.git`
 3. Execute `cd cs50-final-project` to change into (i.e., open) that directory.
 4. Once installed run command `python application.py`
