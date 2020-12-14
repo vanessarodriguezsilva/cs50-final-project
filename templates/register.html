@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block main %}
+    <form action="/register" method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Email" type="email">
+        </div>
+        <div class="form-group">
+            <input class="form-control" name="password" placeholder="Password" type="password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" title="Min 8 characters, 1 uppercase, 1 lowercase and 1 number">
+        </div>
+        <div class="form-group">
+            <input class="form-control" name="password1" placeholder="Password (again)" type="password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" title="Min 8 characters, 1 uppercase, 1 lowercase and 1 number">
+        </div>
+        <button class="btn btn-primary" type="submit">Register</button>
+    </form>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center my-3">
+                <strong>I already have an account.</strong> <a class="text-primary" href="/login">Log in!</a>
+            </div>
+        </div>
+    </div> 
+{% endblock %}

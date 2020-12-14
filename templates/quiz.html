@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Quiz
+{% endblock %}
+
+{% block main %}
+<div class="container-fluid">
+    <div class="row init">
+        <div class="col mb-4">
+            <h3 class="text-center text-primary">Hi @{{user.nickname}}, try this quiz and check your sign language!</h3>
+            <p class="text-center">Your current highest score is: {{ user.score }}, complete the quiz and make a
+                RECORD...</p>
+        </div>
+    </div>
+    <div class="row init">
+        <div class="col mb-2">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img alt="waiting" class="border card-img-top"
+                    src="http://memegen.link/custom/YOU_CAN_DO_IT.jpg?alt=https://www.todaysparent.com/wp-content/uploads/2015/04/success-kid-image.jpg">
+                <div class="card-body">
+                    <p class="card-text text-center">It will be just 5 questions</p>
+                    <button class="btn btn-success" id="start-quiz">Start</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row question d-none">
+        <div class="col">
+            <div id="quiz">
+                <div id="question"></div>
+                <h3 id="score"></h3>
+                <div class="choices mb-3">
+                    <button id="guess0" class="btn-lg btn btn-outline-info">
+                        <p class="m-0" id="choice0"></p>
+                    </button>
+                    <button id="guess1" class="btn-lg btn btn-outline-info">
+                        <p class="m-0" id="choice1"></p>
+                    </button>
+                    <button id="guess2" class="btn-lg btn btn-outline-info">
+                        <p class="m-0" id="choice2"></p>
+                    </button>
+                    <button id="guess3" class="btn-lg btn btn-outline-info">
+                        <p class="m-0" id="choice3"></p>
+                    </button>
+                </div>
+                <p id="progress"></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
