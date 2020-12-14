@@ -49,7 +49,7 @@ Database stores all users (user, password, score) and signs (video, letter, type
 
 1. Check that you have all dependencies
 2. Clone the code: `git clone https://github.com/vanessarodriguezsilva/cs50-final-project.git`
-3. Execute `cd sign_language` to change into (i.e., open) that directory.
+3. Execute `cd cs50-final-project` to change into (i.e., open) that directory.
 4. Once installed run command `python application.py`
 5. In your browser go to `127.0.0.1:5000`
 6. You are ready to go!
