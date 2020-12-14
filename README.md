@@ -1,4 +1,4 @@
-# cs50-final-project
+# Sign Language
 CS50 Final Project - Sign Language 2020
 
 The project is a webpage where the people can learn and practice sign language. The implementation is fairly simple, to keep the project scope in check.
