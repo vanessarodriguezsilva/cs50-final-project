@@ -60,9 +60,15 @@ Database stores all users (user, password, score) and signs (video, letter, type
   ---
 2. Clone the code: `git clone https://github.com/vanessarodriguezsilva/cs50-final-project.git`
 3. Execute `cd cs50-final-project` to change into (i.e., open) that directory.
-4. Once installed run command `python application.py`
-5. In your browser go to `127.0.0.1:5000`
-6. You are ready to go! :+1:
+4. Configurate the project
+  ```
+  * Serving Flask app "application.py" [FLASK_APP=application.py]
+  * Environment: develoment [FLASK_ENV=develoment]
+  * Debug mode: off
+  ```
+5. Once installed run command `flask run`
+6. In your browser go to `127.0.0.1:5000`
+7. You are ready to go! :+1:
 
 # Credits
 All text info about the signs was taken from [this blog](https://blog.ai-media.tv/blog/7-reasons-sign-language-is-awesome), the images used was taken from [logo reference](https://cdn.iconscout.com/icon/free/png-512/sign-language-1427641-1207032.png), [signs](https://image.freepik.com/free-vector/hand-drawn-sign-language-alphabet_23-2147869790.jpg) and [videos](https://www.youtube.com/channel/UCVcQH8A634mauPrGbWs7QlQ)
