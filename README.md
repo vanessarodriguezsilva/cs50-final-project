@@ -52,10 +52,10 @@ Database stores all users (user, password, score) and signs (video, letter, type
 1. Check that you have all dependencies
   >
   ```
-  $ pip install cs50
-  $ pip install Flask
-  $ pip install Flask-Session
-  $ pip install requests
+  $ pip3 install cs50
+  $ pip3 install Flask
+  $ pip3 install Flask-Session
+  $ pip3 install requests
   ```
   ---
 2. Clone the code: `git clone https://github.com/vanessarodriguezsilva/cs50-final-project.git`
